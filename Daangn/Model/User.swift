@@ -36,8 +36,3 @@ class UserModel {
         return storage[nickName] ?? User(nickName: "", address: "")
     }
 }
-
-enum HeaderStatus: String{
-    case 게시글추가 = "중고거래 글쓰기"
-    case 게시글수정 = "중고거래 글 수정하기"
-}
